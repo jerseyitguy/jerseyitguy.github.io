@@ -1,0 +1,6 @@
+{
+  "name": "PlexFlix",
+  "description": "A collaborative app for groups to search movies/TV shows, vote, rate, and build a shared Plex list. Uses TMDB for movie data.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
