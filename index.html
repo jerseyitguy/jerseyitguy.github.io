@@ -43,4 +43,9 @@
   <script type="module" src="index.tsx"></script>
 </body>
 </html>
-<script src="index.tsx" type="module"></script>
+<script type="module">
+  import { createRoot } from 'https://esm.sh/react-dom@^19.1.0/client';
+  import App from './App.tsx';
+
+  const root = createRoot(document.getElementById('root'));
+  root.render(<App />);
